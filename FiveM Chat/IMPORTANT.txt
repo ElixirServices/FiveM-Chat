@@ -1,0 +1,12 @@
+DONT RENAME FOLDERS IF YOU DONT KNOW HOW TO DO THIS!!!
+
+Framework esx or qbcore you can change in 2na_core folder config.lua file.
+
+How to install?
+
+Step 1: Put script in resources folder of your server.
+Step 2: Add ensure 2na_core and 2na_chat in your server.cfg file. 2na_core to function properly, don't forget to install it before installing 2na_chat
+Step 3: You need delete default gta online chat. Go in your server file [gameplay] folder and delete chat and chat-theme-gtao
+Step 4: Restart or start server.
+
+Made By Whimsickle_ On discord

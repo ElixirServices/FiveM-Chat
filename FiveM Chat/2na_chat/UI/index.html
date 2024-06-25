@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/debug.js"></script>
+    <script src="scripts/emoji.js"></script>
+    <script src="scripts/script.js"></script>
+    <title>2na_chat</title>
+  </head>
+  <body>
+    <div class="container">
+      <div style="visibility: hidden" class="message-box"></div>
+      <div style="display: none" class="chat-input-part">
+        <div class="chat-input">
+          <input
+            id="chat-text-input"
+            placeholder="Type a command"
+            type="text"
+          />
+          <div id="notification" class="notification">
+            <img src="img/bell.png" />
+          </div>
+        </div>
+        <div class="chat-emoji">
+          <img id="chat-emoji-icon" src="img/emoji.png" />
+          <div style="display: none" class="chat-emoji-menu"></div>
+        </div>
+      </div>
+      <div style="visibility: hidden" class="suggestions"></div>
+    </div>
+  </body>
+</html>
